@@ -1,0 +1,29 @@
+/*
+CSS
+WordCamp València 2025
+*/
+
+/* HTML */
+/* Body */
+/* Header */
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    left: 0;
+    width: 100vw;
+    backdrop-filter: blur(24.7px);
+}
+
+.admin-bar header {
+    top: 32px;
+}
+
+header .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
+    color: var(--wp--preset--color--base);
+    font-family: var(--wp--preset--font-family--poppins);
+    font-weight: 500;
+    font-size: 16px;
+}
+/* Footer */
